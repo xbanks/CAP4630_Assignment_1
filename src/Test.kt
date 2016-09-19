@@ -3,7 +3,6 @@
  */
 import java.awt.Point
 import java.util.*
-import kotlin.comparisons.compareBy
 
 data class test( val cost: Int, val path: Int ) {
     override fun hashCode(): Int {
@@ -47,4 +46,6 @@ fun main(args: Array<String>) {
     println( test(1,2) == test(2,1) )
     println( Point(1,2).hashCode() )
     println( Point(1,2).hashCode() )
+
+    println( Point(1,2) )
 }
